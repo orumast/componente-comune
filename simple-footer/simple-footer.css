@@ -1,0 +1,60 @@
+/*comutatorul border-box stabileste ca in width sa fie inclus si border si padding. NU este inclus si margin. utilizat uzual ca si resetarea css a lui eric meyer*/
+* {
+  box-sizing: border-box;
+}
+
+footer{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  height: 20vh;
+  text-align: center;
+  display: table;
+  width: 100vw;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+  position: absolute;
+  bottom: 0;
+
+}
+
+strong {
+  font-weight: 700;
+}
+
+.all{
+  height: 100vh;
+  position: relative;
+  padding-bottom: 20vh;
+}
+
+.wrapper{
+  display: table-cell;
+  vertical-align: middle; 
+  
+ 
+}
+
+footer small{
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a{
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover{
+  color: #f26896;
+  transition: color .15s ease-in-out;
+
+}
+
+
+
+
+
